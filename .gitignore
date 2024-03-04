@@ -1,7 +1,7 @@
 ins
 .history
 **/node_modules
-/workspace
+/workspace-ins
 _server/todoapi/db/todolist.json
 _server/todoserver/db/todolist.json
 

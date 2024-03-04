@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <title>Hello - React :)</title>
+</head>
+
+<body>
+  <div id="root"></div>
+
+
+  <script type="text/javascript">
+    // <h1>hello javascript</h1>
+    function App(){
+      const h1 = document.createElement('h1');
+      const txt = document.createTextNode('hello javascript');
+      h1.appendChild(txt);
+      return React.createElement('h1', null , 'hello React');
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(App , null));
+  </script>
+</body>
+
+</html>
